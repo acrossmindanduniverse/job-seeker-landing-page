@@ -1,0 +1,21 @@
+.explore {
+  transition-delay: 0.5s;
+  color: rgb(143, 139, 139);
+  font-family: Poppins;
+}
+
+.explore:hover {
+  border-bottom: 1px solid #fff;
+  color: #ffff;
+}
+
+.explore2nd {
+  transition-duration: 0.5s;
+  transition-property: color;
+}
+
+@media only screen and (max-width: 768px) {
+  .explore {
+    border-bottom: 1px solid #fff;
+  };
+}
